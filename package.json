@@ -19,7 +19,13 @@
         "command": "json-tools.sortJson",
         "title": "Sort JSON"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [{
+        "command": "json-tools.sortJson",
+        "group": "bookmarks"
+      }]
+    }
   },
   "scripts": {
     "vscode:prepublish": "yarn run compile",
